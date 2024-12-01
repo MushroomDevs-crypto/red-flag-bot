@@ -11,6 +11,8 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+# teste fodase
+
 # Load your Twitter and Airtable API keys (preferably from environment variables, config file, or within the railyway app)
 TWITTER_API_KEY = os.getenv("TWITTER_API_KEY", "YourKey")
 TWITTER_API_SECRET = os.getenv("TWITTER_API_SECRET", "YourKey")
